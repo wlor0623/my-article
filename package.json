@@ -1,0 +1,23 @@
+{
+  "name": "my-article",
+  "version": "1.0.0",
+  "description": "代码简单说文章合集 列表 csdn地址:https://blog.csdn.net/weixin_41961749?type=blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlor0623/my-article.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlor0623/my-article/issues"
+  },
+  "homepage": "https://github.com/wlor0623/my-article#readme",
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}
