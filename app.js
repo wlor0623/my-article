@@ -1,6 +1,16 @@
 const axios = require('axios');
 const fs = require('fs');
 
+function escapeHtml(text) {
+  if (!text) return '';
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 async function fetchAllArticles() {
   const pageSize = 100;
   let allArticles = [];
@@ -57,12 +67,12 @@ async function generateReadme() {
     let markdownContent = '# CSDN Blog Articles\n\n![](https://profile-avatar.csdnimg.cn/5c957b67fd2e4b71aabf2a7f7660c59f_weixin_41961749.jpg!1)\n\n CSDN主页:https://blog.csdn.net/weixin_41961749\n\n';
     
     articles.forEach(article => {
-      markdownContent += `## ${article.title}\n\n`;
-      markdownContent += `- **Description**: ${article.description || 'No description'}\n`;
+      markdownContent += `## ${escapeHtml(article.title)}\n\n`;
+      markdownContent += `- **Description**: ${escapeHtml(article.description) || 'No description'}\n`;
       markdownContent += `- **URL**: ${article.url}\n`;
       markdownContent += `- **Post Time**: ${article.postTime}\n`;
       if (article.tags && article.tags.length > 0) {
-        markdownContent += `- **Tags**: ${article.tags.join(', ')}\n`;
+        markdownContent += `- **Tags**: ${article.tags.map(tag => escapeHtml(tag)).join(', ')}\n`;
       }
       markdownContent += '\n---\n\n';
     });

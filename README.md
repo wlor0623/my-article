@@ -6,7 +6,7 @@
 
 ## Web自动化必备：XPath 和 CSS Selector 定位详解
 
-- **Description**: CSS Selector（选择器）原本用于给页面元素应用样式，但也正因为它能精准选择 DOM 元素，所以前端和测试都可以拿来当作“定位工具”用。div > a {就能选中所有直接在<div>下的<a>元素。XPath 全称是 XML Path Language，它是基于 XML 的查询语言，用路径语法来定位节点或属性。它更强大，但写法略复杂。绝对路径：从根节点开始，如：相对路径：从任意节点开始，如：//input[@value='百度一下']
+- **Description**: CSS Selector（选择器）原本用于给页面元素应用样式，但也正因为它能精准选择 DOM 元素，所以前端和测试都可以拿来当作“定位工具”用。div &gt; a {就能选中所有直接在&lt;div&gt;下的&lt;a&gt;元素。XPath 全称是 XML Path Language，它是基于 XML 的查询语言，用路径语法来定位节点或属性。它更强大，但写法略复杂。绝对路径：从根节点开始，如：相对路径：从任意节点开始，如：//input[@value=&#039;百度一下&#039;]
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/148199062
 - **Post Time**: 2025-05-27 22:21:32
 - **Tags**: 前端, 自动化, css, web自动化, xpath, css选择器定位, 自动化测试
@@ -222,7 +222,7 @@
 
 ## UtoVR_Web版SDK使用说明 （H5配置参数和接口api使用指导）
 
-- **Description**: 注意：播放器对象可以在回调函数initOverCallBack后拿到，回调函数中的this对象就是播放器实例化后的对象，可以参考下面的案例拿到播放器实例化后的对象。上面提供了UtoVR_WebSDK 的属性，场景，回调，api的列表。具体的可以参考webSDK解压缩包里面的sample案例.//todo:注意修改视频路径，需要保证播放页面与视频属于同一域名下。以上三步完成了播放器引入，参数配置，初始化。//播放器不支持全景播放回调。//浏览器不支持全屏回调。/*播放器参数配置*/"浏览器不支持全屏！
+- **Description**: 注意：播放器对象可以在回调函数initOverCallBack后拿到，回调函数中的this对象就是播放器实例化后的对象，可以参考下面的案例拿到播放器实例化后的对象。上面提供了UtoVR_WebSDK 的属性，场景，回调，api的列表。具体的可以参考webSDK解压缩包里面的sample案例.//todo:注意修改视频路径，需要保证播放页面与视频属于同一域名下。以上三步完成了播放器引入，参数配置，初始化。//播放器不支持全景播放回调。//浏览器不支持全屏回调。/*播放器参数配置*/&quot;浏览器不支持全屏！
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/148086571
 - **Post Time**: 2025-05-20 14:06:41
 - **Tags**: 前端, utovr, utovr使用说明, utovr_web api
@@ -717,7 +717,7 @@
 
 ## Vite+Vue3+UnoCSS打包报错Rollup failed to resolve import “virtual:uno.css“ from “E:/code/xxx/src/main.ts“
 
-- **Description**: 记得检查 vite.config.ts 是否正确注册了UnoCSS()插件！标题推荐"virtual:uno.css" 报错让我一头雾水，结果只因为少写了这一行vite+vue3+unocss打包炸裂？别忘了vite.config.ts加这句！UnoCSS 打包报错 virtual:uno.css？别笑，这个坑很多人踩了需要我配一个完整可运行的 GitHub 示例或 zip 包资源也可以提供，要不要一份？
+- **Description**: 记得检查 vite.config.ts 是否正确注册了UnoCSS()插件！标题推荐&quot;virtual:uno.css&quot; 报错让我一头雾水，结果只因为少写了这一行vite+vue3+unocss打包炸裂？别忘了vite.config.ts加这句！UnoCSS 打包报错 virtual:uno.css？别笑，这个坑很多人踩了需要我配一个完整可运行的 GitHub 示例或 zip 包资源也可以提供，要不要一份？
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/147771528
 - **Post Time**: 2025-05-07 18:08:19
 - **Tags**: 前端, unocss报错, unocss打包报错, Rollup failed, virtual uno.css
@@ -969,7 +969,7 @@
 
 ## HTML转Markdown踩坑记，Turndown无法正确转换html表格的解决方法
 
-- **Description**: 是一套插件，可以单独应用其中的某个功能。：转换<strike><s>和<del>标签。tables：转换表格（这个插件对你来说最重要！：转换任务列表项（类似- [ ]的复选框）。gfm：启用所有上述插件。// 只使用表格插件给大家看看效果 一下就搞定了如果你用 Turndown 转 HTML 表格的时候发现格式不对，99%就是因为没加GFM插件，别像我一样走弯路了。，随时反馈体验问题，咱们一起打磨它！
+- **Description**: 是一套插件，可以单独应用其中的某个功能。：转换&lt;strike&gt;&lt;s&gt;和&lt;del&gt;标签。tables：转换表格（这个插件对你来说最重要！：转换任务列表项（类似- [ ]的复选框）。gfm：启用所有上述插件。// 只使用表格插件给大家看看效果 一下就搞定了如果你用 Turndown 转 HTML 表格的时候发现格式不对，99%就是因为没加GFM插件，别像我一样走弯路了。，随时反馈体验问题，咱们一起打磨它！
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/147552602
 - **Post Time**: 2025-04-27 12:23:01
 - **Tags**: Turndown 表格, Turndown表格无法转换, html转markdown, html转md, html转换器, html在线转换成md, html转换md问题
@@ -978,7 +978,7 @@
 
 ## 解决element-plus加了clearable导致input宽度一直变化的问题
 
-- **Description**: 遇到 Element Plus 的<el-input>加了clearable宽度抖动问题，本质原因是它内部结构变化导致宽度跟着变了。给 el-input 固定宽度，保证它不管里面有什么都一动不动，稳得一批。顺带说一下，这个坑在表单、搜索栏、弹窗输入框这些场景特别容易踩，尤其是inline布局的时候。想要完整体验这个小坑，我还打包了一个GitHub示例和Vue3 Playground预览链接，有需要的可以自取～
+- **Description**: 遇到 Element Plus 的&lt;el-input&gt;加了clearable宽度抖动问题，本质原因是它内部结构变化导致宽度跟着变了。给 el-input 固定宽度，保证它不管里面有什么都一动不动，稳得一批。顺带说一下，这个坑在表单、搜索栏、弹窗输入框这些场景特别容易踩，尤其是inline布局的时候。想要完整体验这个小坑，我还打包了一个GitHub示例和Vue3 Playground预览链接，有需要的可以自取～
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/147542383
 - **Post Time**: 2025-04-26 20:49:00
 - **Tags**: elementui, elementplus, input 宽度变化, element plus输入框, 输入框宽度一直在变, 输入框一直在动, 输入框宽度抖动问题
@@ -996,7 +996,7 @@
 
 ## 安卓版“RikkaHub“AI助手来了！手把手教你如何一键配置聚合式AI对话软件，免费用DeepSeek等上百大模型!
 
-- **Description**: 对于豆包，元宝，deepseek等传统的App应用相信大家并不陌生，但是各家的大模型或多或少都有自己的优势和劣势: 比如豆包更擅长处理代码类的问题，而腾讯的元宝则在信息抓取和链接读取能力突出，那么有没有一个软件能够集百家之所长，一个软件就能使用市面上大部分开源的大模型呢?有的兄弟,有的有的!这就是今天的主角 -  rikkahub 一个开源原生Android LLM 聊天客户端，支持切换不同的供应商进行聊天，让你体验真正的"聚合式"AI"
+- **Description**: 对于豆包，元宝，deepseek等传统的App应用相信大家并不陌生，但是各家的大模型或多或少都有自己的优势和劣势: 比如豆包更擅长处理代码类的问题，而腾讯的元宝则在信息抓取和链接读取能力突出，那么有没有一个软件能够集百家之所长，一个软件就能使用市面上大部分开源的大模型呢?有的兄弟,有的有的!这就是今天的主角 -  rikkahub 一个开源原生Android LLM 聊天客户端，支持切换不同的供应商进行聊天，让你体验真正的&quot;聚合式&quot;AI&quot;
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/147523773
 - **Post Time**: 2025-04-26 00:18:38
 - **Tags**: RikkaHub安卓版, 聚合ai助手, 安卓ai对话, 安卓开源软件, deepseek使用, api调用deepseek, 开源大模型
@@ -1050,7 +1050,7 @@
 
 ## uniapp报错[plugin:vite:import-analysis] Cannot find module ‘@dcloudio/uni-components/style/audio.css
 
-- **Description**: uniapp #音频播放 #音频通话 #webrtc #h5开发 #renderjs今天在搞一个 WebRTC 的音频通话功能，想着用最简单的方式试试，直接用<audio>一脸懵逼。
+- **Description**: uniapp #音频播放 #音频通话 #webrtc #h5开发 #renderjs今天在搞一个 WebRTC 的音频通话功能，想着用最简单的方式试试，直接用&lt;audio&gt;一脸懵逼。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/147456441
 - **Post Time**: 2025-04-23 15:53:09
 - **Tags**: uniapp audio报错, audio报错, audio.css, uniapp音频报错, uniapp播放音频流, srcObject, srcObject播放
@@ -1545,7 +1545,7 @@
 
 ## UniApp中onPageScroll生命周期遇到的Bug与解决方案
 
-- **Description**: 生命周期函数会在页面滚动时触发，它的参数是一个对象，其中包含scrollTop属性，表示页面在垂直方向上已滚动的距离（单位为px）。console.log("滚动距离为：" + e.scrollTop);这个生命周期非常适合用于监听页面的滚动位置，比如当页面滚动时实现一些效果。但需要注意的是，是在渲染层触发的，且不适合频繁修改页面内容。特别是在App端，如果在滚动过程中频繁修改页面，可能会导致性能问题。在UniApp中，生命周期非常有用，但在使用时需要注意性能问题，特别是在App端。
+- **Description**: 生命周期函数会在页面滚动时触发，它的参数是一个对象，其中包含scrollTop属性，表示页面在垂直方向上已滚动的距离（单位为px）。console.log(&quot;滚动距离为：&quot; + e.scrollTop);这个生命周期非常适合用于监听页面的滚动位置，比如当页面滚动时实现一些效果。但需要注意的是，是在渲染层触发的，且不适合频繁修改页面内容。特别是在App端，如果在滚动过程中频繁修改页面，可能会导致性能问题。在UniApp中，生命周期非常有用，但在使用时需要注意性能问题，特别是在App端。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/146024088
 - **Post Time**: 2025-04-02 00:38:22
 - **Tags**: uni-app, bug, onPageScroll, 生命周期
@@ -1617,7 +1617,7 @@
 
 ## “AI文本和图片检测“网站绕过检测次数思路
 
-- **Description**: 我首先想到的是浏览器插件 改浏览器指纹 但是测试下来有时候会对其他网页造成影响 毕竟改了浏览器环境 hook这个fingerprintjs的话也比较麻烦 于是想到个更简单的办法 直接用油猴脚本 写个生成随机字符串存到localStorage 因为网站里的js逻辑是先读本地localStorage里的"fp" 没有的话再生成 所以直接写个js改本地的就行了 我测试下来好像也有一定规则 前几位必须是208x之类的不然好像验证不通过。因为n是a的visitorId的一个属性 我们先看看打印一下a是个啥。
+- **Description**: 我首先想到的是浏览器插件 改浏览器指纹 但是测试下来有时候会对其他网页造成影响 毕竟改了浏览器环境 hook这个fingerprintjs的话也比较麻烦 于是想到个更简单的办法 直接用油猴脚本 写个生成随机字符串存到localStorage 因为网站里的js逻辑是先读本地localStorage里的&quot;fp&quot; 没有的话再生成 所以直接写个js改本地的就行了 我测试下来好像也有一定规则 前几位必须是208x之类的不然好像验证不通过。因为n是a的visitorId的一个属性 我们先看看打印一下a是个啥。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/146773457
 - **Post Time**: 2025-03-30 20:03:53
 - **Tags**: 前端, js, js逆向, 爬虫与逆向, ai检测逆向, js逆向教程, 网页逆向
@@ -1734,7 +1734,7 @@
 
 ## 小红书图片免费去水印方法,解锁几款免费工具,轻松去除水印
 
-- **Description**: 功能界面市面上很多去水印工具不是收费就是功能有限，而"图酱去水印"直接支持只要是你能想到的平台，基本都能解析！而且视频、图片，解析出来的文件和原始上传的几乎一模一样！
+- **Description**: 功能界面市面上很多去水印工具不是收费就是功能有限，而&quot;图酱去水印&quot;直接支持只要是你能想到的平台，基本都能解析！而且视频、图片，解析出来的文件和原始上传的几乎一模一样！
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/146455221
 - **Post Time**: 2025-03-23 13:52:06
 - **Tags**: 小程序, 去水印, 媒体, 去水印工具, 新媒体运营
@@ -1878,7 +1878,7 @@
 
 ## JS逆向反调试技术，三种绕过无限debugger阻止打开控制台的方法
 
-- **Description**: 窗口大小检测：检测与，异常时关闭页面构造器断点：利用让代码进入无限debugger定时器debugger不断触发debugger，让你无法操作菜单中选择"停用断点"控制台执行clearInterval(定时器变量)停止debugger使用Hook 关键函数，彻底绕过debugger这些技巧在调试 JS 逆向分析时非常实用，希望能帮到大家！如果你有更好的反调试破解方法，欢迎评论区交流！
+- **Description**: 窗口大小检测：检测与，异常时关闭页面构造器断点：利用让代码进入无限debugger定时器debugger不断触发debugger，让你无法操作菜单中选择&quot;停用断点&quot;控制台执行clearInterval(定时器变量)停止debugger使用Hook 关键函数，彻底绕过debugger这些技巧在调试 JS 逆向分析时非常实用，希望能帮到大家！如果你有更好的反调试破解方法，欢迎评论区交流！
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/146316820
 - **Post Time**: 2025-03-17 15:53:54
 - **Tags**: javascript, 开发语言, debugger, 无限debugger, js逆向, 控制台打不开, f12打不开控制台
@@ -2436,7 +2436,7 @@
 
 ## ESP32开发板使用Arduino实现变成蓝牙键盘教程
 
-- **Description**: 你可以根据自己的需求修改代码，增加更多的功能，比如发送特定的快捷键，或控制其他媒体播放器等。这段代码将使ESP32成为一个蓝牙键盘，发送一段文本 "Hello world"，然后发送回车键，再发送播放/暂停的媒体键，最后可以选择性地发送Ctrl+Alt+Delete。打开你的电脑蓝牙设置，搜索名为“ESP32 Keyboard”的设备，连接成功后，它会自动在屏幕上输入 "Hello world"。完成代码编写后，将ESP32开发板连接到电脑，选择正确的开发板和端口，点击“上传”按钮，上传代码到ESP32。
+- **Description**: 你可以根据自己的需求修改代码，增加更多的功能，比如发送特定的快捷键，或控制其他媒体播放器等。这段代码将使ESP32成为一个蓝牙键盘，发送一段文本 &quot;Hello world&quot;，然后发送回车键，再发送播放/暂停的媒体键，最后可以选择性地发送Ctrl+Alt+Delete。打开你的电脑蓝牙设置，搜索名为“ESP32 Keyboard”的设备，连接成功后，它会自动在屏幕上输入 &quot;Hello world&quot;。完成代码编写后，将ESP32开发板连接到电脑，选择正确的开发板和端口，点击“上传”按钮，上传代码到ESP32。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/145853906
 - **Post Time**: 2025-02-25 15:16:57
 - **Tags**: esp32蓝牙, esp32教程, esp32开发板, 物联网, BleKeyboard, 开发板变蓝牙键盘, esp32编程
@@ -3183,7 +3183,7 @@
 
 ## nodejs开发公众号报错 40164，白名单配置找不到，竟然是这个原因
 
-- **Description**: 但是，我在后台翻遍了所有的设置项，却怎么也找不到与 IP 白名单相关的选项。这个问题让我又一次意识到，虽然广告屏蔽插件能够提升浏览体验，减少烦人的广告，但也可能会干扰网页的正常功能，影响开发调试。按常规思路，我首先登录公众号后台，前往“开发者中心”->“开发管理”页面，期望能找到 IP 白名单的配置选项。于是，我首先想到的解决办法是：进入公众号后台，将报错信息中的 IP 地址（比如。我顿时恍然大悟，原来问题并不在后台设置，而是在插件的干扰。接下来，我决定重新检查一下其他可能的因素，特别是浏览器上的插件。
+- **Description**: 但是，我在后台翻遍了所有的设置项，却怎么也找不到与 IP 白名单相关的选项。这个问题让我又一次意识到，虽然广告屏蔽插件能够提升浏览体验，减少烦人的广告，但也可能会干扰网页的正常功能，影响开发调试。按常规思路，我首先登录公众号后台，前往“开发者中心”-&gt;“开发管理”页面，期望能找到 IP 白名单的配置选项。于是，我首先想到的解决办法是：进入公众号后台，将报错信息中的 IP 地址（比如。我顿时恍然大悟，原来问题并不在后台设置，而是在插件的干扰。接下来，我决定重新检查一下其他可能的因素，特别是浏览器上的插件。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/145429704
 - **Post Time**: 2025-02-03 14:15:51
 - **Tags**: 公众号白名单找不到, 公众号报错40164, not inwhitelist, 公众号开发白名单, nodejs开发公众号
@@ -3768,7 +3768,7 @@
 
 ## facebook-wda常用代码片段之元素处理
 
-- **Description**: facebook-wda常用代码片段之元素处理此处整理用wda查找元素、点击元素等常见代码段。getiOSElementQuery 生成wda的元素的querydef getiOSElementQuery(self, locator):    """from element locator to generate iOS element query"""    query = None    # if isinstance(locator, list):    #     logging.er
+- **Description**: facebook-wda常用代码片段之元素处理此处整理用wda查找元素、点击元素等常见代码段。getiOSElementQuery 生成wda的元素的querydef getiOSElementQuery(self, locator):    &quot;&quot;&quot;from element locator to generate iOS element query&quot;&quot;&quot;    query = None    # if isinstance(locator, list):    #     logging.er
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144952733
 - **Post Time**: 2025-01-05 23:28:16
 - **Tags**: facebook-wda, 代码片段, 元素处理
@@ -4128,7 +4128,7 @@
 
 ## Vue-router如何配置 404 路由？遇到 `path: ‘*‘` 错误时该怎么办？ vue2迁移到vue3遇到的坑 must now be defined using a param with
 
-- **Description**: 通过以上步骤，我们成功地解决了 Vue Router 4.x 中不支持path: '*'的问题，并且实现了动态修改页面标题。使用替代了原来的通配符路由，使得 404 页面能够正常显示，并且路由标题能够根据不同页面进行更新。如果你也遇到类似问题，赶紧试试这个解决方案，避免因为错误的路由配置而导致项目出错！希望这篇文章对你有所帮助。如果有其他疑问，欢迎留言讨论！在路由配置中使用meta来定义页面的标题是一种非常推荐的做法，它可以让你集中管理页面的元信息。动态修改。
+- **Description**: 通过以上步骤，我们成功地解决了 Vue Router 4.x 中不支持path: &#039;*&#039;的问题，并且实现了动态修改页面标题。使用替代了原来的通配符路由，使得 404 页面能够正常显示，并且路由标题能够根据不同页面进行更新。如果你也遇到类似问题，赶紧试试这个解决方案，避免因为错误的路由配置而导致项目出错！希望这篇文章对你有所帮助。如果有其他疑问，欢迎留言讨论！在路由配置中使用meta来定义页面的标题是一种非常推荐的做法，它可以让你集中管理页面的元信息。动态修改。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144756340
 - **Post Time**: 2024-12-27 01:21:05
 - **Tags**: vue.js, javascript, vue-router报错, vue3报错, vue2迁移到vue3
@@ -4182,7 +4182,7 @@
 
 ## Element Plus 使用自定义单元格渲染器报错？一招教你解决
 
-- **Description**: 刚刚我在用[vue/compiler-sfc] This experimental syntax requires enabling one of the following parser plugin(s): "jsx", "flow", "typescript". (78:52) 报错 if (item.type === "time") {| ^156| }看起来好像 Vue 不支持 JSX 语法？一番折腾后总算解决了，顺便总结一下我的踩坑过程，方便大家遇到类似问题时能快速解决！
+- **Description**: 刚刚我在用[vue/compiler-sfc] This experimental syntax requires enabling one of the following parser plugin(s): &quot;jsx&quot;, &quot;flow&quot;, &quot;typescript&quot;. (78:52) 报错 if (item.type === &quot;time&quot;) {| ^156| }看起来好像 Vue 不支持 JSX 语法？一番折腾后总算解决了，顺便总结一下我的踩坑过程，方便大家遇到类似问题时能快速解决！
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144730882
 - **Post Time**: 2024-12-25 23:53:01
 - **Tags**: element-plus, vue3, element自定义渲染, 自定义单元格渲染器, element-plus自定义
@@ -4191,7 +4191,7 @@
 
 ## 如何在 Vue 3 中使用 Pinia 开启持久化存储，让状态持久保存！
 
-- **Description**: 接下来，我们可以定义一个 Pinia store，存储一些用户相关的信息，比如userInfotokenroleId等。这里使用来定义我们的 store，并在其中配置持久化策略。id: 'user', // Store 的唯一标识}),actions: {// 更新登出状态},},persist: {enabled: true, // 启用持久化key: "main_store", // 自定义存储的键名。
+- **Description**: 接下来，我们可以定义一个 Pinia store，存储一些用户相关的信息，比如userInfotokenroleId等。这里使用来定义我们的 store，并在其中配置持久化策略。id: &#039;user&#039;, // Store 的唯一标识}),actions: {// 更新登出状态},},persist: {enabled: true, // 启用持久化key: &quot;main_store&quot;, // 自定义存储的键名。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144726343
 - **Post Time**: 2024-12-25 19:26:09
 - **Tags**: vue.js, javascript, pinia, pinia持久化, pinia本地存储, pinia刷新不清除, pinia持久化存储数据
@@ -4218,7 +4218,7 @@
 
 ## 【Vue.js进阶教程】第2章 自定义事件：如何在 Vue 中高效传递数据
 
-- **Description**: 在 Vue 中，事件机制非常强大，可以帮助我们在组件之间传递信息。而自定义事件作为其中的一个关键部分，帮助我们实现组件之间的通信。今天就带你深入了解 Vue 中自定义事件的使用技巧！事件名：为什么要严格匹配和组件及 prop 不同，Vue 的自定义事件名不会自动转换大小写。你触发的事件名必须和监听器中设置的事件名完全匹配。-- 没有效果 --> < my-component v-on: my-event = " doSomething " > </ my-component >
+- **Description**: 在 Vue 中，事件机制非常强大，可以帮助我们在组件之间传递信息。而自定义事件作为其中的一个关键部分，帮助我们实现组件之间的通信。今天就带你深入了解 Vue 中自定义事件的使用技巧！事件名：为什么要严格匹配和组件及 prop 不同，Vue 的自定义事件名不会自动转换大小写。你触发的事件名必须和监听器中设置的事件名完全匹配。-- 没有效果 --&gt; &lt; my-component v-on: my-event = &quot; doSomething &quot; &gt; &lt;/ my-component &gt;
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144664150
 - **Post Time**: 2024-12-25 11:16:11
 - **Tags**: vue.js, 前端, vue自定义事件, vue事件通信, vue组件通信
@@ -4227,7 +4227,7 @@
 
 ## 10分钟快速入门TypeScript
 
-- **Description**: 用大白话说，TypeScript 就是 JavaScript 的超集，多了个“类型系统”。它能帮你在写代码时就发现潜在问题，而不是等到运行时崩溃了才后悔莫及。TypeScript = JavaScript + 类型。let username = "前端小白";let username: string = "前端小白";注意: string，这就是 TypeScript 的类型注解，告诉代码username只能是字符串。如果你想赋值一个数字，直接报错，帮你在写代码时发现问题。a: number和。
+- **Description**: 用大白话说，TypeScript 就是 JavaScript 的超集，多了个“类型系统”。它能帮你在写代码时就发现潜在问题，而不是等到运行时崩溃了才后悔莫及。TypeScript = JavaScript + 类型。let username = &quot;前端小白&quot;;let username: string = &quot;前端小白&quot;;注意: string，这就是 TypeScript 的类型注解，告诉代码username只能是字符串。如果你想赋值一个数字，直接报错，帮你在写代码时发现问题。a: number和。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144714076
 - **Post Time**: 2024-12-25 11:10:50
 - **Tags**: typescript, javascript, typescript入门, typescript基础, typescript教程, typescript安装, typescript使用方法
@@ -4254,7 +4254,7 @@
 
 ## 【Vue.js进阶教程】 第2章 - Props的使用与技巧
 
-- **Description**: 在Vue中，Prop是父组件传递数据给子组件的桥梁。通过Prop，父组件可以把数据传递给子组件，子组件通过Prop接收并使用这些数据。简单来说，Prop就是组件之间传递数据的一种方式。有时候，我们需要向子组件传递一些HTML属性，虽然这些属性没有在props中显式定义。Vue会自动将这些属性添加到子组件的根元素上。例如：</这些未定义的属性会自动被添加到组件的根元素中，变成和。通过Prop，我们可以非常方便地在父子组件之间传递数据。
+- **Description**: 在Vue中，Prop是父组件传递数据给子组件的桥梁。通过Prop，父组件可以把数据传递给子组件，子组件通过Prop接收并使用这些数据。简单来说，Prop就是组件之间传递数据的一种方式。有时候，我们需要向子组件传递一些HTML属性，虽然这些属性没有在props中显式定义。Vue会自动将这些属性添加到子组件的根元素上。例如：&lt;/这些未定义的属性会自动被添加到组件的根元素中，变成和。通过Prop，我们可以非常方便地在父子组件之间传递数据。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144664098
 - **Post Time**: 2024-12-24 16:42:35
 - **Tags**: vue.js, 前端, javascript, vue进阶, vue props
@@ -4461,7 +4461,7 @@
 
 ## 为什么Ubuntu无法连接Windows共享？“Failed to retrieve share list from server“问题的全面解决方案
 
-- **Description**: 通过以上步骤，我最终解决了这个"Failed to retrieve share list from server"的问题。归根结底，这种问题涉及到多个层面：网络配置、协议兼容以及系统配置。
+- **Description**: 通过以上步骤，我最终解决了这个&quot;Failed to retrieve share list from server&quot;的问题。归根结底，这种问题涉及到多个层面：网络配置、协议兼容以及系统配置。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144619511
 - **Post Time**: 2024-12-20 23:55:32
 - **Tags**: ubuntu, windows, linux, windows共享, ubuntu无法连接共享, windows共享文件夹, samba
@@ -4668,7 +4668,7 @@
 
 ## 阿里云服务器出现服务器连接超时一直连接不上咋办
 
-- **Description**: 最近我准备远程连接一台非中国内地的阿里云轻量应用服务器处理一些重要业务，结果却被一个提示"连接超时"卡住了。这台服务器托管了我的几个海外项目，但无论我怎么尝试，都无法连接成功。经过一番排查，终于找到了解决办法，这里分享给大家。
+- **Description**: 最近我准备远程连接一台非中国内地的阿里云轻量应用服务器处理一些重要业务，结果却被一个提示&quot;连接超时&quot;卡住了。这台服务器托管了我的几个海外项目，但无论我怎么尝试，都无法连接成功。经过一番排查，终于找到了解决办法，这里分享给大家。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144514384
 - **Post Time**: 2024-12-16 17:49:14
 - **Tags**: 阿里云, 服务器, 云计算, 阿里云服务器连接超时, 服务器连接超时, 服务器一直连接不上
@@ -5055,7 +5055,7 @@
 
 ## 还在用Tailwind CSS?一文了解如何在 UniApp 中使用 UnoCSS 提升开发效率
 
-- **Description**: 原子化 CSS（Atomic CSS）是一种通过多个小而单一的类名来为元素提供样式的方式。这种方式的核心思想是将每个 CSS 属性抽象成一个类，每个类只负责处理一个 CSS 属性的特定行为。因此，样式表中不会有冗长的自定义类名，而是通过组合多个小的类来达到所需效果。关注点分离：样式和结构之间不再有强耦合，便于维护。减少代码重复：样式不再需要重复写在每个组件的<style>标签中。提升开发效率：可以避免频繁切换模板和样式部分，直接在模板中写类名，极大提升开发效率。
+- **Description**: 原子化 CSS（Atomic CSS）是一种通过多个小而单一的类名来为元素提供样式的方式。这种方式的核心思想是将每个 CSS 属性抽象成一个类，每个类只负责处理一个 CSS 属性的特定行为。因此，样式表中不会有冗长的自定义类名，而是通过组合多个小的类来达到所需效果。关注点分离：样式和结构之间不再有强耦合，便于维护。减少代码重复：样式不再需要重复写在每个组件的&lt;style&gt;标签中。提升开发效率：可以避免频繁切换模板和样式部分，直接在模板中写类名，极大提升开发效率。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144325473
 - **Post Time**: 2024-12-09 13:32:54
 - **Tags**: uni-app, 前端, UnoCSS使用教程, UnoCSS 如何使用, uniapp Tailwind, Tailwind uniapp, uniapp css库
@@ -5298,7 +5298,7 @@
 
 ## UniPopupDialog弹出层 的 `mode=“input“` 中 `v-model` 和 `:value` 失效无法绑定的解决办法
 
-- **Description**: 在使用 `uni-popup-dialog` 的过程中，当设置 `mode="input"` 且使用 `v-model` 或 `:value` 时，可能会发现绑定的值无法正常更新。这里主要是由于组件内部对于 `modelValue` 的监听和处理存在问题。
+- **Description**: 在使用 `uni-popup-dialog` 的过程中，当设置 `mode=&quot;input&quot;` 且使用 `v-model` 或 `:value` 时，可能会发现绑定的值无法正常更新。这里主要是由于组件内部对于 `modelValue` 的监听和处理存在问题。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144309334
 - **Post Time**: 2024-12-07 13:48:44
 - **Tags**: vue.js, UniPopupDialog, uni-popup 弹出层, v-model无法绑定, value无法绑定
@@ -5316,7 +5316,7 @@
 
 ## Uniapp + Vue3 项目使用 `uni-popup` 出现 “连接服务器超时，点击屏幕重试“ 的问题排查记录
 
-- **Description**: uniapp vue3项目报错  TypeError: Failed to fetch dynamically imported module 的解决方法  Uniapp + Vue3 项目使用 `uni-popup` 出现 "连接服务器超时，点击屏幕重试" 的问题排查记录
+- **Description**: uniapp vue3项目报错  TypeError: Failed to fetch dynamically imported module 的解决方法  Uniapp + Vue3 项目使用 `uni-popup` 出现 &quot;连接服务器超时，点击屏幕重试&quot; 的问题排查记录
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144309128
 - **Post Time**: 2024-12-07 13:33:23
 - **Tags**: uni-app, uni-popup报错, 连接服务器超时，点击屏幕重试, uniapp编译报错, uniapp vue3, imported module, TypeError
@@ -5370,7 +5370,7 @@
 
 ## Mac 电脑更新 vscode的时候报错 遇到“只读卷”问题解决方案
 
-- **Description**: Mac 电脑更新 vscode的时候报错   Cannot update while running on a read-only volume. The application is on a read-only volume. Please move the application and try again. If you're on macOS Sierra or later, you'll need to move the application out of the Downloads dire
+- **Description**: Mac 电脑更新 vscode的时候报错   Cannot update while running on a read-only volume. The application is on a read-only volume. Please move the application and try again. If you&#039;re on macOS Sierra or later, you&#039;ll need to move the application out of the Downloads dire
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144298177
 - **Post Time**: 2024-12-06 18:37:42
 - **Tags**: macos, vscode, ide, vscode更新报错, vscode更新失败, mac vscode无法更新, mac更新不了vscode
@@ -5379,7 +5379,7 @@
 
 ## vue3使用ECharts 踩坑记录：`Cannot read property ‘type‘ of undefined` 的解决方案
 
-- **Description**: vue3使用ECharts 踩坑记录：一旦触发 `resize` 方法就报错`Cannot read property 'type' of undefined` 的解决方案
+- **Description**: vue3使用ECharts 踩坑记录：一旦触发 `resize` 方法就报错`Cannot read property &#039;type&#039; of undefined` 的解决方案
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144297960
 - **Post Time**: 2024-12-06 18:21:19
 - **Tags**: echarts, javascript, vue.js, echarts报错, vue3使用echarts报错
@@ -5757,7 +5757,7 @@
 
 ## autojs官方文档 自动化 - 坐标操作 使用坐标进行模拟点击、模拟滑动的手势函数
 
-- **Description**: autojs官方文档 自动化 - 坐标操作本章节介绍了一些使用坐标进行点击、滑动的函数。这些函数有的需要安卓7.0以上，有的需要root权限。要获取要点击的位置的坐标，可以在开发者选项中开启"指针位置"。基于坐标的脚本通常会有分辨率的问题，这时可以通过函数来进行自动坐标放缩。这个函数会影响本章节的所有点击、长按、滑动等函数。通过设定脚本设计时的分辨率，使得脚本在其他分辨率下自动放缩坐标。控件和坐标也可以相互结合。一些控件是无法点击的(clickable为false), 无法通过.click()
+- **Description**: autojs官方文档 自动化 - 坐标操作本章节介绍了一些使用坐标进行点击、滑动的函数。这些函数有的需要安卓7.0以上，有的需要root权限。要获取要点击的位置的坐标，可以在开发者选项中开启&quot;指针位置&quot;。基于坐标的脚本通常会有分辨率的问题，这时可以通过函数来进行自动坐标放缩。这个函数会影响本章节的所有点击、长按、滑动等函数。通过设定脚本设计时的分辨率，使得脚本在其他分辨率下自动放缩坐标。控件和坐标也可以相互结合。一些控件是无法点击的(clickable为false), 无法通过.click()
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144148614
 - **Post Time**: 2024-11-30 01:19:36
 - **Tags**: 自动化, android, autojs官方文档, autojs模拟点击, autojs模拟滑动, autojs坐标操作, autojs点击坐标
@@ -5775,7 +5775,7 @@
 
 ## autojs官方文档 控件和控件集合 获取控件的属性，可以对控件进行点击、长按等操作
 
-- **Description**: UiCollection"继承"于数组，实际上是一个UiObject的数组，因此可以使用数组的函数和属性，例如使用length属性获取UiCollection的大小，使用forEach函数来遍历UiCollection。根据选择器selector在该控件集合的控件的子控件、孙控件…根据selector所确定的条件在该控件集合的控件、子控件、孙控件…该函数会在当前控件的子控件，孙控件，曾孙控件…UiObject表示一个控件，可以通过这个对象获取到控件的属性，也可以对控件进行点击、长按等操作。
+- **Description**: UiCollection&quot;继承&quot;于数组，实际上是一个UiObject的数组，因此可以使用数组的函数和属性，例如使用length属性获取UiCollection的大小，使用forEach函数来遍历UiCollection。根据选择器selector在该控件集合的控件的子控件、孙控件…根据selector所确定的条件在该控件集合的控件、子控件、孙控件…该函数会在当前控件的子控件，孙控件，曾孙控件…UiObject表示一个控件，可以通过这个对象获取到控件的属性，也可以对控件进行点击、长按等操作。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144148607
 - **Post Time**: 2024-11-30 01:15:56
 - **Tags**: autojs官方文档, autojs教程, autojs控件, autojs源码, autojs选择器控件, autojs UiObject, UiObject
@@ -5892,7 +5892,7 @@
 
 ## autojs官方文档 device - 设备 获取设备宽高，内存使用率 IMEI，设备ID，调整设备亮度、音量等
 
-- **Description**: device模块提供了与设备有关的信息与操作，例如获取设备宽高，内存使用率，设备ID，调整设备亮度、音量等。此模块的部分函数，需要"修改系统设置"的权限。如果没有该权限，会抛出异常。此模块的主要功能文档在。
+- **Description**: device模块提供了与设备有关的信息与操作，例如获取设备宽高，内存使用率，设备ID，调整设备亮度、音量等。此模块的部分函数，需要&quot;修改系统设置&quot;的权限。如果没有该权限，会抛出异常。此模块的主要功能文档在。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144124455
 - **Post Time**: 2024-11-29 01:46:12
 - **Tags**: autojs官方文档, autojspro使用教程, autojs获取设备信息, 安卓自动化教程, autojs修改设备信息, autojs获取imei
@@ -6216,7 +6216,7 @@
 
 ## 解决微信开发者工具报错 “Component is not found in path ‘wx://not-found‘“ 的问题 真机调试 在路径中找不到组件
 
-- **Description**: 解决方法确保xxx.js文件存在且包含Page()打开对应的页面文件夹，检查xxx.js文件。Page({data: {},onLoad() {console.log('页面加载成功');},});确保app.json中的页面路径指向正确的文件夹和文件。"pages": [如果你创建了新的页面，例如，请确保app.json"pages": [如果以上操作后仍然报错，尝试关闭并重新打开微信开发者工具，有时它的缓存可能导致问题未能即时反映。问题复现与调试过程在新建页面时误删了xxx.js。
+- **Description**: 解决方法确保xxx.js文件存在且包含Page()打开对应的页面文件夹，检查xxx.js文件。Page({data: {},onLoad() {console.log(&#039;页面加载成功&#039;);},});确保app.json中的页面路径指向正确的文件夹和文件。&quot;pages&quot;: [如果你创建了新的页面，例如，请确保app.json&quot;pages&quot;: [如果以上操作后仍然报错，尝试关闭并重新打开微信开发者工具，有时它的缓存可能导致问题未能即时反映。问题复现与调试过程在新建页面时误删了xxx.js。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/144063898
 - **Post Time**: 2024-11-26 17:19:07
 - **Tags**: 微信小程序, 微信小程序报错, 开发者工具报错, wx//not-found, not-found, 微信开发者工具报错, 真机调试报错
@@ -6819,7 +6819,7 @@
 
 ## 深度解析vue:deep、/deep/、＞＞＞穿透到子组件原理
 
-- **Description**: 在 Vue 中，::v-deep/deep/和>>>都是用于穿透子组件的样式的方式，目的都是为了修改子组件内部的样式，通常用于样式深度穿透。它们的背后原理涉及到 Vue 对组件样式的封装和作用域。
+- **Description**: 在 Vue 中，::v-deep/deep/和&gt;&gt;&gt;都是用于穿透子组件的样式的方式，目的都是为了修改子组件内部的样式，通常用于样式深度穿透。它们的背后原理涉及到 Vue 对组件样式的封装和作用域。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143739898
 - **Post Time**: 2024-11-13 13:19:53
 - **Tags**: vue.js, javascript, 前端
@@ -6882,7 +6882,7 @@
 
 ## 爬虫工程师必备! 常用加密算法的特征一览 常见加密特征进一步总结 (二)
 
-- **Description**: Base64 编码Base64 编码常用于加密后数据的传输，它将二进制数据转化为可打印的字符串格式。开头为ey：当加密数据以"ey"开头时，通常可能是 JSON 格式数据的 Base64 编码结果。例如，JWT（JSON Web Token）使用 Base64 编码头部、有效载荷和签名，常见于 API 身份验证中。常见结构，这种三个 Base64 编码段之间用分隔的字符串，通常是 JWT。末尾为或==：如果字符串末尾有一个或两个等号 ()，这通常是 Base64 编码填充的特征。示例。
+- **Description**: Base64 编码Base64 编码常用于加密后数据的传输，它将二进制数据转化为可打印的字符串格式。开头为ey：当加密数据以&quot;ey&quot;开头时，通常可能是 JSON 格式数据的 Base64 编码结果。例如，JWT（JSON Web Token）使用 Base64 编码头部、有效载荷和签名，常见于 API 身份验证中。常见结构，这种三个 Base64 编码段之间用分隔的字符串，通常是 JWT。末尾为或==：如果字符串末尾有一个或两个等号 ()，这通常是 Base64 编码填充的特征。示例。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143689017
 - **Post Time**: 2024-11-11 16:26:54
 - **Tags**: 爬虫, 前端, javascript
@@ -6963,7 +6963,7 @@
 
 ## 面试官: 讲讲一个vue单文件组件的构建过程 内部是如何实现的?
 
-- **Description**: template>：组件的 HTML 结构。<script>：组件的逻辑代码。<style>：组件的样式。
+- **Description**: template&gt;：组件的 HTML 结构。&lt;script&gt;：组件的逻辑代码。&lt;style&gt;：组件的样式。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143653833
 - **Post Time**: 2024-11-10 00:44:42
 - **Tags**: vue.js, 前端, javascript
@@ -7494,7 +7494,7 @@
 
 ## [复制即用] h5小程序可用 教育类页面首页 纯静态页面布局模板 复制粘贴方便快捷 html代码开箱即用
 
-- **Description**: [复制即用]   h5小程序可用 教育类页面首页 纯静态页面布局模板 复制粘贴方便快捷 html代码开箱即用uniapp改改就能用了<!doctype html><html><head>  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  <meta name="viewport" content="width=device-width, maximu
+- **Description**: [复制即用]   h5小程序可用 教育类页面首页 纯静态页面布局模板 复制粘贴方便快捷 html代码开箱即用uniapp改改就能用了&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, maximu
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143163348
 - **Post Time**: 2024-10-22 17:18:05
 - **Tags**: html, 小程序, 前端
@@ -7503,7 +7503,7 @@
 
 ## [复制即用] uniapp h5小程序可用 仿美团外卖点餐纯静态页面布局模板 tab布局左边类目右边商品选择页面 方便快捷 html代码开箱即用 rem布局适配各种分辨率
 
-- **Description**: [复制即用] uniapp可用 仿美团外卖点餐纯静态页面模板 tab布局左边类目右边商品选择页面 html代码开箱即用 rem布局适配各种分辨率 h5小程序可用   方便快捷<template>  <view class="container">    <view class="menu">      <view class="menu-item active"><text>精品推荐</text></view> 
+- **Description**: [复制即用] uniapp可用 仿美团外卖点餐纯静态页面模板 tab布局左边类目右边商品选择页面 html代码开箱即用 rem布局适配各种分辨率 h5小程序可用   方便快捷&lt;template&gt;  &lt;view class=&quot;container&quot;&gt;    &lt;view class=&quot;menu&quot;&gt;      &lt;view class=&quot;menu-item active&quot;&gt;&lt;text&gt;精品推荐&lt;/text&gt;&lt;/view&gt; 
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143161830
 - **Post Time**: 2024-10-22 16:31:38
 - **Tags**: uni-app, 小程序, html
@@ -7512,7 +7512,7 @@
 
 ## [复制即用] vue可用 仿美团外卖点餐纯静态页面模板 tab布局左边类目右边商品选择页面 html代码开箱即用 rem布局适配各种分辨率
 
-- **Description**: 仿美团点餐纯静态页面html 开箱即用 rem布局适配各种分辨率<!DOCTYPE html><html lang="en">  <head>    <meta charset="UTF-8" />    <meta http-equiv="X-UA-Compatible" content="IE=edge" />    <meta name="viewport" content="width=device-width, in
+- **Description**: 仿美团点餐纯静态页面html 开箱即用 rem布局适配各种分辨率&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;  &lt;head&gt;    &lt;meta charset=&quot;UTF-8&quot; /&gt;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, in
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143161053
 - **Post Time**: 2024-10-22 16:11:24
 - **Tags**: vue.js, html, javascript
@@ -7521,7 +7521,7 @@
 
 ## [复制即用 建议收藏] uniapp注册/忘记密码界面纯静态模版 微信小程序h5可用 兼容vue2 vue3项目 手机号邮箱账号输入框 验证码输入框 密码输入框 包含手机号邮箱账号验证 密码输入
 
-- **Description**: <template>	<view class="page">		<view class="title">注册/忘记密码</view>		<view class="input_box"><input type="text"   placeholder="请输入邮箱账号" /></view>		<view class="input_box">			<input type="number" place
+- **Description**: &lt;template&gt;	&lt;view class=&quot;page&quot;&gt;		&lt;view class=&quot;title&quot;&gt;注册/忘记密码&lt;/view&gt;		&lt;view class=&quot;input_box&quot;&gt;&lt;input type=&quot;text&quot;   placeholder=&quot;请输入邮箱账号&quot; /&gt;&lt;/view&gt;		&lt;view class=&quot;input_box&quot;&gt;			&lt;input type=&quot;number&quot; place
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143159723
 - **Post Time**: 2024-10-22 15:35:13
 - **Tags**: uni-app, 微信小程序, 小程序
@@ -7539,7 +7539,7 @@
 
 ## vue3打造大屏可视化项目,包含全屏适配方案和ThreeJS 3D模型加载与展示实践
 
-- **Description**: /</width;height;overflow;</通过本文的实践步骤，我们成功在Vue3项目中集成了ThreeJS，并加载了gltf格式的3D模型。借助Vue3的响应式机制和ThreeJS强大的3D渲染能力，我们可以创建出生动、立体的数据展示大屏。这不仅提升了数据的可读性，也增强了用户的交互体验。
+- **Description**: /&lt;/width;height;overflow;&lt;/通过本文的实践步骤，我们成功在Vue3项目中集成了ThreeJS，并加载了gltf格式的3D模型。借助Vue3的响应式机制和ThreeJS强大的3D渲染能力，我们可以创建出生动、立体的数据展示大屏。这不仅提升了数据的可读性，也增强了用户的交互体验。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143150677
 - **Post Time**: 2024-10-22 12:50:03
 - **Tags**: 3d, threejs, vue.js, 前端
@@ -7575,7 +7575,7 @@
 
 ## 使用vue3+vite+ts+vue3-qr-reader实现移动端h5+pc端调起摄像头核销二维码
 
-- **Description**: 我们开始做第一步就是装依赖：yarn add vue3-qr-reader 或者 npm install vue3-qr-reader　　我记得装完后还需要装一个 yarn add -D sass 3、封装一个组件公用：组件位置你们自己定　　我写在了components/QrScanner/index　　这里面我用到了 element-plus 的icon 想用的可以安装对应依赖  <div>    <QrStream      :style="scannerStyle
+- **Description**: 我们开始做第一步就是装依赖：yarn add vue3-qr-reader 或者 npm install vue3-qr-reader　　我记得装完后还需要装一个 yarn add -D sass 3、封装一个组件公用：组件位置你们自己定　　我写在了components/QrScanner/index　　这里面我用到了 element-plus 的icon 想用的可以安装对应依赖  &lt;div&gt;    &lt;QrStream      :style=&quot;scannerStyle
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143101761
 - **Post Time**: 2024-10-21 00:41:32
 - **Tags**: javascript, vue.js, 前端
@@ -7629,7 +7629,7 @@
 
 ## 在uni-app中，详细实现用户收货地址的自动识别与解析功能，提取“姓名”、“手机号”、“省市区”、“街道”和“乡镇村庄”等关键字。用户只需复制并粘贴一段包含姓名、电话和详细地址的文本信息，自动填充
 
-- **Description**: 在vue或uniapp项目开发中，旨在实现手机H5移动端网页和电脑PC端网站的功能，具体为“快递地址解析”，该功能可以拆分出姓名、电话、省市区地址以及详细街道乡镇村庄信息。* @return {Object}				返回值			{ province: '', name: '', city: '', area: '', detail: '', phone: '', postalCode: '' }* @property {String}			placeholder		提示文本 默认值：粘贴收货信息。
+- **Description**: 在vue或uniapp项目开发中，旨在实现手机H5移动端网页和电脑PC端网站的功能，具体为“快递地址解析”，该功能可以拆分出姓名、电话、省市区地址以及详细街道乡镇村庄信息。* @return {Object}				返回值			{ province: &#039;&#039;, name: &#039;&#039;, city: &#039;&#039;, area: &#039;&#039;, detail: &#039;&#039;, phone: &#039;&#039;, postalCode: &#039;&#039; }* @property {String}			placeholder		提示文本 默认值：粘贴收货信息。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143093907
 - **Post Time**: 2024-10-20 15:59:36
 - **Tags**: uni-app
@@ -7746,7 +7746,7 @@
 
 ## uniapp vue3使用Pinia引入报错的解决方法 提示The requested module ‘/store/xxx.js‘ does not provide an export named
 
-- **Description**: vue3使用Pinia引入模块的时候控制台提示报错报错信息为The requested module '/store/xxx.js' does not provide an export named 'xxx' 
+- **Description**: vue3使用Pinia引入模块的时候控制台提示报错报错信息为The requested module &#039;/store/xxx.js&#039; does not provide an export named &#039;xxx&#039; 
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143081105
 - **Post Time**: 2024-10-19 17:20:07
 - **Tags**: javascript, uni-app, 开发语言
@@ -7755,7 +7755,7 @@
 
 ## 编写自定义组件props报错 TypeError: Right-hand side of ‘instanceof‘ is not an object的解决方法
 
-- **Description**: 解决Vue3项目中出现的Unhandled promise rejection TypeError，主要针对'instanceof'右侧不是对象的问题。文章提供了解决此类问题的教程，包括检查Vue3组件中props的type定义，避免使用Vue2语法等。
+- **Description**: 解决Vue3项目中出现的Unhandled promise rejection TypeError，主要针对&#039;instanceof&#039;右侧不是对象的问题。文章提供了解决此类问题的教程，包括检查Vue3组件中props的type定义，避免使用Vue2语法等。
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/143080918
 - **Post Time**: 2024-10-19 17:06:00
 - **Tags**: vue.js, javascript, 前端
@@ -7800,7 +7800,7 @@
 
 ## 在vue当中应用quicklink 一行代码让页面提速10%
 
-- **Description**: 只需要4步：1、安装quicklink模块npm install --save quicklink2、用rel属性绑定要观察的dom元素<div id="app" ref="quicklink">3、引用quicklink模块import quicklink from "quicklink";4、观察路由变化之后实例化代码export default {...watch: {    '$route' () {        const el = this.$refs
+- **Description**: 只需要4步：1、安装quicklink模块npm install --save quicklink2、用rel属性绑定要观察的dom元素&lt;div id=&quot;app&quot; ref=&quot;quicklink&quot;&gt;3、引用quicklink模块import quicklink from &quot;quicklink&quot;;4、观察路由变化之后实例化代码export default {...watch: {    &#039;$route&#039; () {        const el = this.$refs
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/124592564
 - **Post Time**: 2022-05-05 16:56:52
 - **Tags**: vue.js, javascript, 前端
@@ -7809,7 +7809,7 @@
 
 ## 磁力搜加密参数研究
 
-- **Description**: 最近发现了磁力搜这个网站可以聚合搜索 挺方便的 但是最近加了加密参数 调试研究了下调试调试的时候遇到了点小问题  网站防止调试加了循环debug用油猴写了个简单的脚本重写下setInterval函数为空就行参数生成代码	function getJiamiParams() {			function getRandomNum(length) {				let numList = "0123456789";				let str = '';				for (let i = length; i
+- **Description**: 最近发现了磁力搜这个网站可以聚合搜索 挺方便的 但是最近加了加密参数 调试研究了下调试调试的时候遇到了点小问题  网站防止调试加了循环debug用油猴写了个简单的脚本重写下setInterval函数为空就行参数生成代码	function getJiamiParams() {			function getRandomNum(length) {				let numList = &quot;0123456789&quot;;				let str = &#039;&#039;;				for (let i = length; i
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/123741075
 - **Post Time**: 2022-03-25 17:29:14
 - **Tags**: 小程序, bug, 正则表达式
@@ -7818,7 +7818,7 @@
 
 ## 解决mpvue小程序分享到朋友圈无效问题
 
-- **Description**: 手动修改一下mpvue这个包，在node_modules里面找到mpvue在index里面搜索下onShareAppMessage找到// 用户点击右上角分享onShareAppMessage: rootVueVM.$options.onShareAppMessage  ? function (options) { return callHook$1(rootVueVM, 'onShareAppMessage', options); } : null,在这一段代码下面添加一个处理就可以了// 
+- **Description**: 手动修改一下mpvue这个包，在node_modules里面找到mpvue在index里面搜索下onShareAppMessage找到// 用户点击右上角分享onShareAppMessage: rootVueVM.$options.onShareAppMessage  ? function (options) { return callHook$1(rootVueVM, &#039;onShareAppMessage&#039;, options); } : null,在这一段代码下面添加一个处理就可以了// 
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/107402802
 - **Post Time**: 2020-07-17 10:39:18
 - **Tags**: 小程序, 前端, mpvue, 小程序分享, mpvue分享朋友圈, 分享到朋友圈, 朋友圈
@@ -7827,7 +7827,7 @@
 
 ## navicat导入.sql文件出错2006- MySQLserver has gone away
 
-- **Description**: 今天导入一个600多M的.sql文件时出现了问题 报错2006-MySQLserver has gone away打开navicat的菜单中的tools，选择server monitor，然后在左列选择数据库，右列则点选variable表单项，寻找max_allowed_packet，将其值改大。汉化版中：在菜单中，工具–>服务器监控–>在左侧数据库列表前打勾–>在右侧变量中找到max_allowed_packet，改大这个值，如9999999999...
+- **Description**: 今天导入一个600多M的.sql文件时出现了问题 报错2006-MySQLserver has gone away打开navicat的菜单中的tools，选择server monitor，然后在左列选择数据库，右列则点选variable表单项，寻找max_allowed_packet，将其值改大。汉化版中：在菜单中，工具–&gt;服务器监控–&gt;在左侧数据库列表前打勾–&gt;在右侧变量中找到max_allowed_packet，改大这个值，如9999999999...
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/106356789
 - **Post Time**: 2020-05-26 15:11:55
 
@@ -7888,7 +7888,7 @@
 
 ## vue根据文件夹自动生成路由 匹配路径
 
-- **Description**: //routes.js//递归获取 views 文件夹下的所有.vue文件const files = require.context('@/views', true, /\.vue$/)let pages = {};files.keys().forEach(key => {  pages[key.replace(/(\.\/|\.vue)/g, '')] = files(key)....
+- **Description**: //routes.js//递归获取 views 文件夹下的所有.vue文件const files = require.context(&#039;@/views&#039;, true, /\.vue$/)let pages = {};files.keys().forEach(key =&gt; {  pages[key.replace(/(\.\/|\.vue)/g, &#039;&#039;)] = files(key)....
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/105263677
 - **Post Time**: 2020-04-02 10:28:01
 - **Tags**: vue
@@ -7949,7 +7949,7 @@
 
 ## vue国际化 vue-i18n使用教程
 
-- **Description**: 在项目中集成依赖$ cnpm i vue-i18n --save 注入 vue 实例中在src目录创建一个文件夹 language//language/index.jsimport Vue from 'vue'import VueI18n from 'vue-i18n';import store from &quot;@/store.js&quot;;import ENLocale from ...
+- **Description**: 在项目中集成依赖$ cnpm i vue-i18n --save 注入 vue 实例中在src目录创建一个文件夹 language//language/index.jsimport Vue from &#039;vue&#039;import VueI18n from &#039;vue-i18n&#039;;import store from &amp;quot;@/store.js&amp;quot;;import ENLocale from ...
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82981368
 - **Post Time**: 2018-10-10 15:06:09
 
@@ -7965,7 +7965,7 @@
 
 ## html5+ 下拉刷新
 
-- **Description**: &amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;	&amp;lt;head&amp;gt;		&amp;lt;meta charset=&quot;utf-8&quot; /&amp;gt;		&amp;lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1
+- **Description**: &amp;amp;lt;!DOCTYPE HTML&amp;amp;gt;&amp;amp;lt;html&amp;amp;gt;	&amp;amp;lt;head&amp;amp;gt;		&amp;amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;amp;gt;		&amp;amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;initial-scale=1
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82980554
 - **Post Time**: 2018-10-10 15:06:01
 
@@ -7973,7 +7973,7 @@
 
 ## html5+ 侧滑窗口
 
-- **Description**: &amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;	&amp;lt;head&amp;gt;		&amp;lt;meta charset=&quot;utf-8&quot; /&amp;gt;		&amp;lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1
+- **Description**: &amp;amp;lt;!DOCTYPE HTML&amp;amp;gt;&amp;amp;lt;html&amp;amp;gt;	&amp;amp;lt;head&amp;amp;gt;		&amp;amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;amp;gt;		&amp;amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;initial-scale=1
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82980546
 - **Post Time**: 2018-10-10 15:05:55
 
@@ -7981,7 +7981,7 @@
 
 ## html5+ 窗口嵌套
 
-- **Description**: &amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;	&amp;lt;head&amp;gt;		&amp;lt;meta charset=&quot;utf-8&quot; /&amp;gt;		&amp;lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1
+- **Description**: &amp;amp;lt;!DOCTYPE HTML&amp;amp;gt;&amp;amp;lt;html&amp;amp;gt;	&amp;amp;lt;head&amp;amp;gt;		&amp;amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;amp;gt;		&amp;amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;initial-scale=1
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82980541
 - **Post Time**: 2018-10-10 15:05:50
 
@@ -7989,7 +7989,7 @@
 
 ## html5+ webview_animation-窗口动画
 
-- **Description**: &amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;	&amp;lt;head&amp;gt;		&amp;lt;meta charset=&quot;utf-8&quot; /&amp;gt;		&amp;lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1
+- **Description**: &amp;amp;lt;!DOCTYPE HTML&amp;amp;gt;&amp;amp;lt;html&amp;amp;gt;	&amp;amp;lt;head&amp;amp;gt;		&amp;amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;amp;gt;		&amp;amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;initial-scale=1
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82980535
 - **Post Time**: 2018-10-10 15:05:45
 
@@ -8029,7 +8029,7 @@
 
 ## hml5+ Android创建快捷方式
 
-- **Description**: &lt;!DOCTYPE HTML&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta charset="utf-8" /&gt;		&lt;meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /&gt;		&am
+- **Description**: &amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;	&amp;lt;head&amp;gt;		&amp;lt;meta charset=&quot;utf-8&quot; /&amp;gt;		&amp;lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&amp;gt;		&amp;am
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82979197
 - **Post Time**: 2018-10-09 11:01:07
 
@@ -8053,7 +8053,7 @@
 
 ## html5+ nativeui_waiting-原生等待框
 
-- **Description**: &lt;!DOCTYPE html&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta charset="utf-8" /&gt;		&lt;meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"
+- **Description**: &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;	&amp;lt;head&amp;gt;		&amp;lt;meta charset=&quot;utf-8&quot; /&amp;gt;		&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no&quot;
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82977411
 - **Post Time**: 2018-10-09 09:27:37
 
@@ -8101,7 +8101,7 @@
 
 ## html5+ Camera-摄像头
 
-- **Description**: &lt;!DOCTYPE HTML&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta charset="utf-8" /&gt;		&lt;meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /&gt;		&am
+- **Description**: &amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;	&amp;lt;head&amp;gt;		&amp;lt;meta charset=&quot;utf-8&quot; /&amp;gt;		&amp;lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&amp;gt;		&amp;am
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82970276
 - **Post Time**: 2018-10-08 16:52:57
 
@@ -8167,7 +8167,7 @@
 
 ## js常用函数整理
 
-- **Description**: 常用函数获取十六进制随机颜色function getRandomColor() {  return '#' + (function(h) {    return new Array(7 - h.length).join(&amp;quot;0&amp;quot;) + h;  })((Math.random() * 0x1000000 &amp;amp;lt;&amp;amp;lt; 0).toString(16));}getRandomCol
+- **Description**: 常用函数获取十六进制随机颜色function getRandomColor() {  return &#039;#&#039; + (function(h) {    return new Array(7 - h.length).join(&amp;amp;quot;0&amp;amp;quot;) + h;  })((Math.random() * 0x1000000 &amp;amp;amp;lt;&amp;amp;amp;lt; 0).toString(16));}getRandomCol
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82837688
 - **Post Time**: 2018-09-25 11:54:06
 - **Tags**: javascript, js函数, 函数整理
@@ -8176,7 +8176,7 @@
 
 ## Vue -渐进式 JavaScript 框架
 
-- **Description**: Vue -渐进式 JavaScript 框架介绍官网githubVue.js 是一套构建用户界面(UI)的渐进式 JavaScript 框架库和框架的区别库:?&gt; 库，本质上是一些函数的集合。每次调用函数，实现一个特定的功能，接着把控制权交给使用者jQuery：DOM 操作，即：封装 DOM 操作，简化 DOM 操作框架:?&gt; 框架，是一套完...
+- **Description**: Vue -渐进式 JavaScript 框架介绍官网githubVue.js 是一套构建用户界面(UI)的渐进式 JavaScript 框架库和框架的区别库:?&amp;gt; 库，本质上是一些函数的集合。每次调用函数，实现一个特定的功能，接着把控制权交给使用者jQuery：DOM 操作，即：封装 DOM 操作，简化 DOM 操作框架:?&amp;gt; 框架，是一套完...
 - **URL**: https://blog.csdn.net/weixin_41961749/article/details/82837596
 - **Post Time**: 2018-09-25 11:47:18
 - **Tags**: vue介绍, vue教程
