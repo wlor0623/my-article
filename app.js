@@ -64,7 +64,7 @@ async function fetchAllArticles() {
 async function generateReadme() {
   try {
     const articles = await fetchAllArticles();
-    let markdownContent = '# CSDN Blog Articles\n\n![](https://profile-avatar.csdnimg.cn/5c957b67fd2e4b71aabf2a7f7660c59f_weixin_41961749.jpg!1)\n\n CSDN主页:https://blog.csdn.net/weixin_41961749\n\n';
+    let markdownContent = '# CSDN Blog Articles\n\n![](https://profile-avatar.csdnimg.cn/5c957b67fd2e4b71aabf2a7f7660c59f_weixin_41961749.jpg!1)\n\n CSDN主页:https://blog.csdn.net//weixin_41961749?type=blog\n\n';
     
     articles.forEach(article => {
       markdownContent += `## ${escapeHtml(article.title)}\n\n`;

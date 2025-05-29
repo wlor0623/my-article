@@ -2,7 +2,25 @@
 
 ![](https://profile-avatar.csdnimg.cn/5c957b67fd2e4b71aabf2a7f7660c59f_weixin_41961749.jpg!1)
 
- CSDN主页:https://blog.csdn.net/weixin_41961749
+ CSDN主页:https://blog.csdn.net//weixin_41961749?type=blog
+
+## 提示词工程之AI大模型通用越狱指南：你不知道的20种prompt 指令格式，调试提示词一次全掌握！
+
+- **Description**: 如果你看到这里，或许会和我当初一样震惊——原来现在的大模型提示词，已经细化到这种程度了？无论你是做提示工程、AI产品调试、还是大模型接口封装，这些格式不一定是越狱的“钥匙”，但却是你理解大模型背后响应机制的“镜子”。真正的提示词高手，不是写出一个 prompt 就完事，而是能像调试器一样精确控制模型行为。序号类型关键词示例作用简述1直接命令式粗暴解除限制4技术指令式模拟调试状态6文件格式式伪装配置文件7注释式类似开发注释13逻辑重写式条件逻辑触发17伪代码式。
+- **URL**: https://blog.csdn.net/weixin_41961749/article/details/148308451
+- **Post Time**: 2025-05-29 13:35:41
+- **Tags**: 人工智能, 大模型越狱, 越狱提示词, 越狱prompt, 大模型注入, 提示词工程, 豆包提示词
+
+---
+
+## 【踩坑记录】关于uniapp input设置focus后，安卓上@focus居然触发两次的解决办法
+
+- **Description**: 这个问题其实本质上就是平台兼容性 bug，官方迟迟没有修复，我们只能用代码绕过。希望 uniapp 能早点把这类老问题修一修，input 是最基础的组件了，这种重复触发事件问题，一不注意就会影响到业务逻辑，简直像在踩雷。如果你也被坑过，欢迎在评论区交流一下怎么规避的。
+- **URL**: https://blog.csdn.net/weixin_41961749/article/details/148265039
+- **Post Time**: 2025-05-28 15:29:49
+- **Tags**: uni-app, android, uniapp focus触发, uniapp安卓bug, uniapp安卓输入框问题, uniapp安卓focus
+
+---
 
 ## Web自动化必备：XPath 和 CSS Selector 定位详解
 
